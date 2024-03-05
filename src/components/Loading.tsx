@@ -14,7 +14,7 @@ const LoadingContext = createContext({
 });
 
 export function LoadingProvider({ children, customLoader }: ProviderProps) {
-  const [isShow, setIsShow] = useState(true);
+  const [isShow, setIsShow] = useState(false);
 
   const show = () => {
     setIsShow(true);
