@@ -1,8 +1,12 @@
 # react-loading-provider
 
-WIP
+![loading.gif](loading.gif)
+
+`npm install @motopeco/react-loading-provider`
 
 ```typescript jsx
+import { LoadingProvider, useLoading } from '@motopeco/react-loading-provider'
+
 export default function App() {
   return (
     <LoadingProvider>
